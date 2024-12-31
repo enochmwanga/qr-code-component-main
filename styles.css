@@ -1,0 +1,30 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate300: hsl(212, 45%, 89%);
+  --slate500: hsl(216, 15%, 48%);
+  --slate900: hsl(218, 44%, 22%);
+}
+body {
+  font-family: "Outfit";
+  background-color: var(--slate300);
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+div {
+  box-sizing: border-box;
+  width: 320px;
+  height: 499px;
+  background-color: var(--white);
+  border-radius: 25px;
+  padding: 16px 16px 40px;
+}
+img {
+  width: 288px;
+  height: 288px;
+  border-radius: inherit;
+}
+p:first-of-type {
+  font-weight: bold;
+  color: var(--slate900);
+}
