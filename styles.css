@@ -30,5 +30,13 @@ img {
 }
 p:first-of-type {
   font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
   color: var(--slate900);
 }
+P:nth-of-type(2){
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  color: var(--slate500);
+}
+
